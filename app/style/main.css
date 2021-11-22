@@ -1,0 +1,39 @@
+body {
+    background-color: tomato;
+
+}
+.title_box {
+}
+.header_box {
+    display:flex;
+    flex-direction:row;
+	background-color: lightyellow;
+}
+.text {
+	background-color: lightyellow;
+}
+p {
+
+   	font-family: "Tahoma", Geneva, sans-serif;
+  	padding:16px;
+	font-size: 20px;
+
+}
+main h2 {
+    padding:16px;
+}
+.header_box h1 {
+    padding: 16px;
+   	font-family: "Tahoma", Geneva, sans-serif;
+
+}
+.title a:link {
+	color:tomato;
+}
+.text a:link {
+
+   	font-family: "Tahoma", Geneva, sans-serif;
+    padding:16px;
+	font-size: 20px;
+	color:tomato;
+}

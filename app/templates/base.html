@@ -1,0 +1,38 @@
+{{define "base"}}
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Eikrt website</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+	<div class = "header_box">
+            <div class = "title_box">
+                <h1> <a href="/"> Eikrt Website </a></h1>
+            </div>
+
+            <div>
+                 <h1> <a href="/projects"> Projects <a></h1>
+            </div>
+            <div>
+                <h1> <a href="/tutorials"> Tutorials <a></h1>
+            </div>
+                
+            <div>
+                <h1> <a href="/reviews"> Reviews <a></h1>
+            </div>
+
+            <div>
+                <h1> <a href="/about"> About <a></h1>
+            </div>
+
+	</div>
+    <main>
+        {{template "content" .}}
+    </main>
+</body>
+</html>
+{{end}}
