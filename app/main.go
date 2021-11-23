@@ -119,5 +119,6 @@ func main() {
     http.HandleFunc("/tutorials", tutorialsHandler)
     http.HandleFunc("/about", aboutHandler)
     http.Handle("/style/", http.StripPrefix("/style/", http.FileServer(http.Dir("./style/")))) 
+    http.Handle("/res/", http.StripPrefix("/res/", http.FileServer(http.Dir("./res/")))) 
     log.Fatal(http.ListenAndServe(":8080", nil))
 }

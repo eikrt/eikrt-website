@@ -12,6 +12,17 @@ body {
 .text {
 	background-color: lightyellow;
 }
+.blog_entry {
+    padding:16px;    
+}
+.blog_entry h3 {
+}
+.blog_entry p {
+        padding:0px;
+}
+.blog_entry a {
+        text-decoration: none;
+}
 p {
 
    	font-family: "Tahoma", Geneva, sans-serif;
@@ -27,12 +38,24 @@ main h2 {
    	font-family: "Tahoma", Geneva, sans-serif;
 
 }
-.title a:link {
-	color:tomato;
+.mursu_image {
 }
+.header_box a:link {
+	color:tomato;
+
+    text-decoration: none;
+}
+
+.header_box a:visited {
+	color:tomato;
+
+    text-decoration: none;
+}
+
 .text a:link {
 
    	font-family: "Tahoma", Geneva, sans-serif;
+    text-decoration: none;
     padding:16px;
 	font-size: 20px;
 	color:tomato;
